@@ -64,3 +64,7 @@ netlify deploy --build --prod
 ## .env variables
 
 You will need to enter your environment variables in the Netlify UI. You can find them in your Netlify site settings under "Build & Deploy" > "Environment". You can also use the Netlify CLI to set them or store in a `.env` file. See the [Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/) for more info. the .env.example file has the variables you need to set.
+
+## Clerk
+
+Clerk is a service that handles user authentication and identity. You can sign up for a free account at [clerk.dev](https://clerk.dev). They have detailed [documentation](https://docs.clerk.dev/) on how to use their service.
